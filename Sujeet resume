@@ -1,0 +1,138 @@
+\documentclass[10pt,a4paper]{altacv}
+
+\geometry{left=1.2cm,right=1.2cm,top=1.2cm,bottom=1.2cm,columnsep=1.2cm}
+
+% Packages
+\usepackage{fontawesome5}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\renewcommand{\familydefault}{\sfdefault} % Sans-serif font
+
+% Colors
+\definecolor{PrimaryColor}{HTML}{1F77B4} % Accent color
+\colorlet{accent}{PrimaryColor}
+\colorlet{emphasis}{PrimaryColor}
+\colorlet{body}{black}
+
+% Personal Info
+\name{Sujeet Kumar}{Yadav}
+\tagline{Software Development Engineer}
+\personalinfo{
+  \email{\href{mailto:sujeetydv185@gmail.com}{sujeetydv185@gmail.com}}
+  \phone{+91 9454260093}
+  \location{Lucknow, India}
+  \linkedin{\href{https://linkedin.com/in/sujeetydv}{linkedin.com/in/sujeetydv}}
+  \github{\href{https://github.com/yourusername}{github.com/yourusername}}
+}
+
+\begin{document}
+\makecvheader
+
+%------------------------------------------------
+% Summary
+%------------------------------------------------
+\cvsection{Professional Summary}
+\begin{cvparagraph}
+Full-Stack Software Engineer skilled in React.js, Node.js, TypeScript, and SQL, with experience in building and deploying end-to-end web applications. Strong problem-solving skills, OCI cloud deployment experience, and hands-on with AI integrations.
+\end{cvparagraph}
+
+%------------------------------------------------
+% Skills
+%------------------------------------------------
+\cvsection{Skills}
+\begin{cvskills}
+\cvskill{\faCode~Languages}{JavaScript (ES6+), TypeScript, Java, Python, SQL}
+\cvskill{\faLaptopCode~Frontend}{React.js, HTML5 \& CSS, Responsive UI}
+\cvskill{\faServer~Backend}{Node.js (Express), REST APIs, PostgreSQL, MySQL, Oracle Cloud (OCI)}
+\cvskill{\faTools~Tools}{Git/GitHub, Postman, Docker, Agile/Scrum}
+\cvskill{\faUsers~Soft Skills}{Leadership, Communication, Problem-Solving, Critical Thinking}
+\end{cvskills}
+
+%------------------------------------------------
+% Work Experience
+%------------------------------------------------
+\cvsection{Work Experience}
+
+\cvevent{Software Trainee}{Solitaire Infosys, Chandigarh}{Present}{}
+\begin{itemize}[leftmargin=*, noitemsep]
+\item Built and maintained client applications using React.js \& Node.js
+\item Debugged, tested, and deployed production-ready features
+\item Collaborated in Agile workflows, improving delivery efficiency
+\end{itemize}
+
+\divider
+
+\cvevent{Freelance Web Developer}{}{Present}{}
+\begin{itemize}[leftmargin=*, noitemsep]
+\item Delivered 3+ production websites (luxury vehicles, hotel management, e-commerce)
+\item Designed responsive UIs, built secure APIs, optimized database performance
+\item Managed projects end-to-end from requirement gathering to deployment
+\end{itemize}
+
+%------------------------------------------------
+% Education
+%------------------------------------------------
+\cvsection{Education}
+\cvevent{B.Tech in Computer Science Engineering}{Maharishi Dayanand University, Rohtak}{Aug 2025 -- Present}{}
+\cvevent{Diploma in Computer Engineering (CGPA: 8.21)}{CDL Govt. Polytechnic, Sirsa}{Aug 2022 -- Jun 2025}{}
+
+%------------------------------------------------
+% Projects
+%------------------------------------------------
+\cvsection{Projects}
+
+\cvevent{JD to Offer: AI Job Tailor}{}{}{}
+\begin{itemize}[leftmargin=*, noitemsep]
+\item Full-stack app using React, Node.js, TypeScript, PostgreSQL, OCI GenAI
+\item Deployed backend on OCI Free Tier and frontend on Vercel
+\item \href{https://github.com/yourusername/project1}{GitHub Link}
+\end{itemize}
+
+\cvevent{E-Commerce Website}{}{}{}
+\begin{itemize}[leftmargin=*, noitemsep]
+\item End-to-end platform with cart, checkout, product listings, authentication
+\item Tech stack: React.js, Node.js, SQL
+\item \href{https://github.com/yourusername/project2}{GitHub Link}
+\end{itemize}
+
+\cvevent{AI Chatbot}{}{}{}
+\begin{itemize}[leftmargin=*, noitemsep]
+\item Built chatbot using sequence models to enhance customer interaction
+\item Integrated with website UI, showcasing ML + full-stack skills
+\item \href{https://github.com/yourusername/project3}{GitHub Link}
+\end{itemize}
+
+%------------------------------------------------
+% Certifications
+%------------------------------------------------
+\cvsection{Certifications}
+\begin{itemize}[leftmargin=*, noitemsep]
+\item JP Morgan Chase \& Co — Investment Banking Job Simulation
+\item Infosys — Python for Beginners
+\item Great Learning — Core Java
+\end{itemize}
+
+%------------------------------------------------
+% Achievements
+%------------------------------------------------
+\cvsection{Achievements}
+\begin{itemize}[leftmargin=*, noitemsep]
+\item Participated in Hackathon @ IIIT Hyderabad (Felicity '25)
+\item Recognized as Top Performer in college for academics \& projects
+\item Hosted and led technical events showcasing leadership
+\item Awarded for Sustainable Development contribution at SOHA Exhibition
+\end{itemize}
+
+%------------------------------------------------
+% Languages
+%------------------------------------------------
+\cvsection{Languages}
+English, Hindi
+
+%------------------------------------------------
+% Hobbies
+%------------------------------------------------
+\cvsection{Hobbies}
+Learning new skills, Playing team sports
+
+\end{document}
