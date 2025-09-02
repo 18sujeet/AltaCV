@@ -476,16 +476,4 @@
 }
 
 % 1.7.3 Backward compatibility for hooks management
-\IfFormatAtLeastTF{2020-10-01}{%
-  \AddToHook{begindocument/before}{%
-    \pagestyle{empty}%
-    \color{body}%
-    \raggedright%
-  }
-}{%
-  \AtBeginDocument{%
-    \pagestyle{empty}%
-    \color{body}%
-    \raggedright%
-  }
-}
+\IfFormatAtL
